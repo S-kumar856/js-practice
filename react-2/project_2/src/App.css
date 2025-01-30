@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  background-color: antiquewhite;
+}
+.head{
+  font-size: 20px;
+  margin-bottom: 5vh;
+}
+
+.candidate_investInfo{
+  width: 40%;
+  padding: 20px 15px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.value{
+  font-size: 1.2rem;
+  color: gray;
+  font-weight: 500;
+  margin-bottom: 2vh;
+}
+
+
+.price{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.pricePercentage{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: lightgreen;
+  text-align: center;
+}
+.total_money p{
+  font-size: 0.9rem;
+  color: gray;
+  margin-top: 5px;
+}
+
+.current_value{
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.invested_amount{
+  display: flex;
+  gap: 4vw;
+}
+
+.invested p, .returns p{
+  font-size: 1.2rem;
+  color: gray;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.invested span {
+ font-size: 1.2rem;
+ font-weight: bold;
+}
+
+.returns h3, .returnPer{
+  color: lightgreen;
+}
+
+
+
+
+
+
+/* media query */
+
+@media only screen and (max-width: 600px){
+  .container{
+    width: 100%;
+  }
+  .candidate_investInfo{
+    width: 90%;
+  }
+  .price {
+    font-size: 1.5rem;
+  }
+  .pricePercentage{
+    font-size: 1.2rem;
+  }
+  .total_money p{
+    font-size: 0.8rem;
+  }
+  
+  .current_value{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+  }
+  .invested_amount{
+    display: flex;
+    gap: 20vw;
+  }
+  
+  .invested p, .returns p{
+    font-size: 1rem;
+  }
+  .invested span {
+   font-size: 1.2rem;
+   font-weight: bold;
+  }
+  
+  .returns h3{
+    font-size: 1.2rem;
+  }
+  .returnPer{
+    color: lightgreen;
+  }
+}
