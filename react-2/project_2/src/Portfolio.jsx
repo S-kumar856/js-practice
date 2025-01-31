@@ -8,10 +8,10 @@ const Portfolio = () => {
                 <h2>Portfolio</h2>
             </div>
             <div className="candidate_investInfo">
-                    <p className='value'>Current Value</p>
+                <p className='value'>Current Value</p>
                 <div className="current_value">
                     <div className="total_money">
-                        <span className='price'>$ 7,94,455.32 </span> 
+                        <span className='price'>$ 7,94,455.32 </span>
                         <span className='pricePercentage'>$13,108.80(+1.72%)</span>
                         <p>as of Jan 29 2025, 11:12 PM</p>
                     </div>
@@ -28,6 +28,37 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+
+            {/* portfolio details */}
+
+            <div className="details_container">
+                {data.map((item, index) => {
+                    const { CompanyName, investment, currentValue, returns } = item
+                    return (
+                        <div key={index} className="details">
+                            <p className="company_name">{CompanyName}</p>
+                            <button>SIP</button>
+
+                            <div className="details_info">
+                                <div className="inveset_info">
+                                    <p>Investment</p>
+                                    <span>{investment}</span>
+                                </div>
+                                <div className="current_info">
+                                    <p>Current Value</p>
+                                    <span>{currentValue}</span>
+                                </div>
+                                <div className="returns_info">
+                                    <p>Returns</p>
+                                    <span>{returns}</span>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+
+
         </div>
     )
 }
