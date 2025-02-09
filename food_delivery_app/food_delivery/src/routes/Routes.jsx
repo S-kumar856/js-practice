@@ -1,21 +1,21 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Headers from './components/layout/Header'
-import Footer from './components/layout/Footer'
-import Home from './pages/Home'
+import Footer from '../components/layout/Footer'
+import Headers from '../components/layout/Header'
+import Home from '../pages/Home'
 
-const App = () => {
+const Routess = () => {
   return (
     <>
       <BrowserRouter>
-      <Headers/>
+        <Headers />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </>
   )
 }
 
-export default App
+export default Routess
