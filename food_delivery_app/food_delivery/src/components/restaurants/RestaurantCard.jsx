@@ -3,7 +3,7 @@ import RestaurantData from '../ResaturantData'
 
 const RestaurantCard = () => {
     return (
-        <div className="home flex items-center justify-center">
+        <div className="home flex items-center justify-center pt-[80px]">
             <div className="grid md:grid-cols-4 gap-4">
                 {
                     RestaurantData.map((item, index) => {
