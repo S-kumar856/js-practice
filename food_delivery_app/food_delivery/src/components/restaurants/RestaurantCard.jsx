@@ -1,12 +1,23 @@
 import React from 'react'
 import RestaurantData from '../ResaturantData'
+import { useAppContext } from '../AppContext';
 
 const RestaurantCard = () => {
+    const { searchTerm } = useAppContext();
+
+    const handleSearch = RestaurantData.filter((item) => 
+            item.name?.toLowerCase().includes(searchTerm.toLowerCase())  ||
+            item.place?.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase()) ||
+            item.price?.toString().includes(searchTerm)||
+            item.rating?.toString().includes(searchTerm)
+    );
     return (
-        <div className="home flex items-center justify-center pt-[80px]">
+        <>
+            {handleSearch.length > 0 ? (
+                <div className="home flex items-center justify-center pt-[80px]">
             <div className="grid md:grid-cols-4 gap-4">
                 {
-                    RestaurantData.map((item, index) => {
+                    handleSearch.map((item, index) => {
                         return (
                             <div key={index} className='rounded-lg shadow-lg bg-white w-72 m-2'>
                                 <div className="relative">
@@ -64,6 +75,14 @@ const RestaurantCard = () => {
 
             </div>
         </div>
+            ) : (
+                <div>
+                    <h1>result not found</h1>
+                </div>
+            )}
+        
+        
+        </>
     )
 }
 

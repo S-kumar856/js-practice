@@ -5,20 +5,22 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Restaurants from './pages/Restaurants'
 import Home from './pages/Home'
+import Biryani from './pages/Biryani'
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
-       
         <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/home" element={<Routess />} >
-          <Route path="food" element={<Home/>} />
-          <Route path='restaurant' element={<Restaurants />} />
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Routess />} >
+            <Route index element={<Home />} />
+            <Route path="home" element={<Home />} />
+            <Route path='home/biryani' element={<Biryani />} />
+            <Route path='restaurant' element={<Restaurants />} />
           </Route>
         </Routes>
-       
+
       </BrowserRouter>
     </>
   )
