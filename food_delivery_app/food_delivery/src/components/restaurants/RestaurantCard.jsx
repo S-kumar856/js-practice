@@ -11,14 +11,14 @@ const RestaurantCard = () => {
                             <div key={index} className='rounded-lg shadow-lg bg-white w-72 m-2'>
                                 <div className="relative">
                                     <img
-                                        className="w-full h-48 object-cover" 
-                                        src={item.image} 
+                                        className="w-full h-48 object-cover"
+                                        src={item.image}
                                         alt="Restaurant"
                                     />
-                                    {item.promoted &&(
-                                    <div className="absolute top-2 right-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">
-                                        {item.promoted}
-                                    </div>)
+                                    {item.promoted && (
+                                        <div className="absolute top-2 right-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">
+                                            {item.promoted}
+                                        </div>)
                                     }
                                 </div>
 
@@ -63,8 +63,8 @@ const RestaurantCard = () => {
                 }
 
             </div>
-            </div>
-            )
+        </div>
+    )
 }
 
-            export default RestaurantCard
+export default RestaurantCard
