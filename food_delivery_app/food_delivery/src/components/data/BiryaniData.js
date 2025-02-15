@@ -6,8 +6,8 @@ const BiryaniData = [
     "place": "Hitech City, Hyderabad",
     "rating": 4.8,
     "price": {
-      "single": "₹250",
-      "family_pack": "₹950"
+      "single": 250,
+      "family_pack": "950"
     },
     "biryani_name": "Hyderabadi Dum Biryani"
   },
@@ -18,8 +18,8 @@ const BiryaniData = [
     "place": "RTC Cross Road, Hyderabad",
     "rating": 4.6,
     "price": {
-      "single": "₹270",
-      "family_pack": "₹1000"
+      "single": 270,
+      "family_pack": "1000"
     },
     "biryani_name": "Special Chicken Biryani"
   },
@@ -30,8 +30,8 @@ const BiryaniData = [
     "place": "Charminar, Hyderabad",
     "rating": 4.7,
     "price": {
-      "single": "₹300",
-      "family_pack": "₹1200"
+      "single": 300,
+      "family_pack": "1200"
     },
     "biryani_name": "Mutton Biryani"
   },
@@ -42,8 +42,8 @@ const BiryaniData = [
     "place": "Gachibowli, Hyderabad",
     "rating": 4.4,
     "price": {
-      "single": "₹220",
-      "family_pack": "₹850"
+      "single": 220,
+      "family_pack": "850"
     },
     "biryani_name": "Paneer Biryani"
   },
@@ -54,8 +54,8 @@ const BiryaniData = [
     "place": "Secunderabad, Hyderabad",
     "rating": 4.3,
     "price": {
-      "single": "₹240",
-      "family_pack": "₹900"
+      "single": 240,
+      "family_pack": "900"
     },
     "biryani_name": "Egg Biryani"
   },
@@ -66,8 +66,8 @@ const BiryaniData = [
     "place": "Madhapur, Hyderabad",
     "rating": 4.5,
     "price": {
-      "single": "₹350",
-      "family_pack": "₹1300"
+      "single": 350,
+      "family_pack": "1300"
     },
     "biryani_name": "Luxury Dum Biryani"
   },
@@ -78,8 +78,8 @@ const BiryaniData = [
     "rating": 4.6,
     "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
-      "single": "₹290",
-      "family_pack": "₹1100"
+      "single": 290,
+      "family_pack": "1100"
     },
     "biryani_name": "Fish Biryani"
   },
@@ -90,8 +90,8 @@ const BiryaniData = [
     "rating": 4.7,
     "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
-      "single": "₹280",
-      "family_pack": "₹1050"
+      "single": 280,
+      "family_pack": "1050"
     },
     "biryani_name": "Chicken Dum Biryani"
   },
@@ -102,8 +102,8 @@ const BiryaniData = [
     "rating": 4.3,
     "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
-      "single": "₹260",
-      "family_pack": "₹950"
+      "single": 260,
+      "family_pack": "950"
     },
     "biryani_name": "Spicy Chicken Biryani"
   },
@@ -114,8 +114,8 @@ const BiryaniData = [
     "rating": 4.5,
     "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
-      "single": "₹300",
-      "family_pack": "₹1100"
+      "single": 300,
+      "family_pack": "1100"
     },
     "biryani_name": "Mughlai Mutton Biryani"
   },
@@ -126,8 +126,8 @@ const BiryaniData = [
     "rating": 4.2,
     "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
-      "single": "₹240",
-      "family_pack": "₹900"
+      "single": 240,
+      "family_pack": "900"
     },
     "biryani_name": "Andhra Special Biryani"
   },
@@ -138,8 +138,8 @@ const BiryaniData = [
     "rating": 4.4,
     "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
-      "single": "₹280",
-      "family_pack": "₹1000"
+      "single": 280,
+      "family_pack": "1000"
     },
     "biryani_name": "Afghani Chicken Biryani"
   },
@@ -150,8 +150,8 @@ const BiryaniData = [
     "rating": 4.3,
     "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
-      "single": "₹250",
-      "family_pack": "₹950"
+      "single": 250,
+      "family_pack": "950"
     },
     "biryani_name": "Boneless Chicken Biryani"
   },
@@ -162,8 +162,8 @@ const BiryaniData = [
     "rating": 4.6,
     "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
-      "single": "₹320",
-      "family_pack": "₹1200"
+      "single": 320,
+      "family_pack": "1200"
     },
     "biryani_name": "Shahi Mutton Biryani"
   },
@@ -174,8 +174,8 @@ const BiryaniData = [
     "rating": 4.7,
     "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
-      "single": "₹290",
-      "family_pack": "₹1100"
+      "single": 290,
+      "family_pack": "1100"
     },
     "biryani_name": "Hyderabadi Chicken Dum Biryani"
   },
@@ -186,8 +186,8 @@ const BiryaniData = [
     "rating": 4.5,
     "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
-      "single": "₹260",
-      "family_pack": "₹950"
+      "single": 260,
+      "family_pack": "950"
     },
     "biryani_name": "Special Egg Biryani"
   }

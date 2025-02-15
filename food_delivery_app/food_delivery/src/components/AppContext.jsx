@@ -8,8 +8,8 @@ export const AppProvider = ({children}) =>{
     const [cart, setCart] = useState([]);
 
     // Function to add item to cart
-    const addToCart = (items) => {
-        setCart([...cart, items]);
+    const addToCart = (item) => {
+        setCart([...cart, item]);
     };
     console.log(cart)
     // Function to remove item from cart
