@@ -1,4 +1,4 @@
-import React, { Children, useState } from 'react';
+import React, { useState } from 'react';
 import { useAppContext } from '../components/AppContext';
 
 const CartPage = () => {
@@ -16,7 +16,7 @@ const CartPage = () => {
     const handleRemove = (id) => {
         setQuantities((prev) => ({
             ...prev,
-            [id]: (prev[id] >= 1 ? prev[id] - 1 : 1)
+            [id]: (prev[id] > 1 ? prev[id] - 1 : 1)
         }))
     }
 

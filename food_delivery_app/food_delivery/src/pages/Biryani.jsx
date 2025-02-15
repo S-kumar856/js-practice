@@ -38,9 +38,7 @@ const Biryani = () => {
                                 <button onClick={()=>addToCart(item)} className="bg-blue-500 text-white px-3 py-2 rounded-lg text-sm font-semibold hover:bg-blue-600">
                                     Add to Cart
                                 </button>
-                                <button className="bg-red-500 text-white px-3 py-2 rounded-lg text-sm font-semibold hover:bg-red-600">
-                                    Order Now
-                                </button>
+                                
                             </div>
                         </div>
                     </div>
