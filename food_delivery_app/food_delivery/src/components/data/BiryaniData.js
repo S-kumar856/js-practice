@@ -76,6 +76,7 @@ const BiryaniData = [
     "hotel_name": "Zaitoon Biryani",
     "place": "Banjara Hills, Hyderabad",
     "rating": 4.6,
+    "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
       "single": "₹290",
       "family_pack": "₹1100"
@@ -87,6 +88,7 @@ const BiryaniData = [
     "hotel_name": "Pista House",
     "place": "Shamshabad, Hyderabad",
     "rating": 4.7,
+    "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
       "single": "₹280",
       "family_pack": "₹1050"
@@ -98,6 +100,7 @@ const BiryaniData = [
     "hotel_name": "Grand Biryani Point",
     "place": "Kondapur, Hyderabad",
     "rating": 4.3,
+    "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
       "single": "₹260",
       "family_pack": "₹950"
@@ -109,6 +112,7 @@ const BiryaniData = [
     "hotel_name": "Sultan's Biryani",
     "place": "Jubilee Hills, Hyderabad",
     "rating": 4.5,
+    "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
       "single": "₹300",
       "family_pack": "₹1100"
@@ -120,6 +124,7 @@ const BiryaniData = [
     "hotel_name": "Kritunga Biryani",
     "place": "Ameerpet, Hyderabad",
     "rating": 4.2,
+    "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
       "single": "₹240",
       "family_pack": "₹900"
@@ -131,6 +136,7 @@ const BiryaniData = [
     "hotel_name": "4 Seasons Biryani",
     "place": "Kukatpally, Hyderabad",
     "rating": 4.4,
+    "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
       "single": "₹280",
       "family_pack": "₹1000"
@@ -142,6 +148,7 @@ const BiryaniData = [
     "hotel_name": "Biryani Factory",
     "place": "Lingampally, Hyderabad",
     "rating": 4.3,
+    "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
       "single": "₹250",
       "family_pack": "₹950"
@@ -153,6 +160,7 @@ const BiryaniData = [
     "hotel_name": "Royal Biryani Hub",
     "place": "Habsiguda, Hyderabad",
     "rating": 4.6,
+    "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
       "single": "₹320",
       "family_pack": "₹1200"
@@ -164,6 +172,7 @@ const BiryaniData = [
     "hotel_name": "Nayaab Biryani House",
     "place": "Malakpet, Hyderabad",
     "rating": 4.7,
+    "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
       "single": "₹290",
       "family_pack": "₹1100"
@@ -175,6 +184,7 @@ const BiryaniData = [
     "hotel_name": "Darbar Biryani",
     "place": "Miyapur, Hyderabad",
     "rating": 4.5,
+    "image": "https://b.zmtcdn.com/data/pictures/chains/5/20426325/c1256e9b289483f0017e8f027b1d50c0_o2_featured_v2.jpg?output-format=webp",
     "price": {
       "single": "₹260",
       "family_pack": "₹950"

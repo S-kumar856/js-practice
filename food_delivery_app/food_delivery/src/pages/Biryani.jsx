@@ -1,7 +1,9 @@
 import React from 'react'
 import BiryaniData from '../components/data/BiryaniData'
+import { useAppContext } from '../components/AppContext'
 
-const Biryani = () => {
+const Biryani = ({items}) => {
+    const { addToCart } = useAppContext();
     return (
         <>
             <div className="pt-20 flex flex-wrap gap-6 justify-center p-6 bg-gray-100">
@@ -33,7 +35,7 @@ const Biryani = () => {
 
                             {/* Buttons */}
                             <div className="mt-4 flex justify-between">
-                                <button className="bg-blue-500 text-white px-3 py-2 rounded-lg text-sm font-semibold hover:bg-blue-600">
+                                <button onClick={()=>addToCart(items)} className="bg-blue-500 text-white px-3 py-2 rounded-lg text-sm font-semibold hover:bg-blue-600">
                                     Add to Cart
                                 </button>
                                 <button className="bg-red-500 text-white px-3 py-2 rounded-lg text-sm font-semibold hover:bg-red-600">
