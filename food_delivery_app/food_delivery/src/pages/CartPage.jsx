@@ -19,7 +19,7 @@ const CartPage = () => {
             [id]: (prev[id] > 1 ? prev[id] - 1 : 1)
         }))
     }
-
+//total
     const getTotalPrice = () => {
         return cart.reduce((total, item) => {
             const quantity = quantities[item.id] || 1;
